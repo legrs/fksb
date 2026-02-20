@@ -1,0 +1,11 @@
+MWSTAGE/MWSDK/Act_samples
+MWSTAGE/*
+
+!MWSTAGE/MWSDK
+MWSTAGE/MWSDK/*
+
+!MWSTAGE/MWSDK/Act_samples
+
+3ddat/
+
+!3ddat/*.FCStd

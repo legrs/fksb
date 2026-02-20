@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://mo805ba7hm1p"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_xjir6"]
+
+[resource]
+HSlider/icons/grabber = SubResource("ImageTexture_xjir6")

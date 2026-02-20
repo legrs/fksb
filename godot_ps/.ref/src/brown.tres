@@ -1,0 +1,114 @@
+[gd_resource type="Theme" load_steps=14 format=3 uid="uid://g7dn80h5rccx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_g8eg2"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s3d2q"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ik8pf"]
+content_margin_left = 7.0
+content_margin_top = 3.0
+content_margin_right = 7.0
+content_margin_bottom = 3.0
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7cb07"]
+bg_color = Color(0.669716, 0.669716, 0.669716, 1)
+border_width_left = 1
+border_width_top = 2
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ok6me"]
+content_margin_top = 1.0
+content_margin_bottom = 1.0
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_snvaa"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xjmxx"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o03a7"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xym2t"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_m3m6t"]
+color = Color(0.414454, 0.415116, 0.533943, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_navgf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q2qll"]
+bg_color = Color(0.757969, 0.757969, 0.757969, 1)
+border_width_left = 4
+border_width_top = 4
+border_color = Color(0.418536, 0.418536, 0.418536, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4x640"]
+bg_color = Color(0.527155, 0.527155, 0.527155, 1)
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.36, 0.36, 0.36, 1)
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_focus_color = Color(0, 0, 0, 1)
+Button/colors/font_hover_color = Color(0, 0, 0, 1)
+Button/colors/font_pressed_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 16
+Button/styles/focus = SubResource("StyleBoxEmpty_g8eg2")
+Button/styles/hover = SubResource("StyleBoxFlat_s3d2q")
+Button/styles/normal = SubResource("StyleBoxFlat_ik8pf")
+Button/styles/pressed = SubResource("StyleBoxFlat_7cb07")
+CheckButton/colors/font_color = Color(0, 0, 0, 1)
+CheckButton/colors/font_focus_color = Color(0, 0, 0, 1)
+CheckButton/colors/font_hover_color = Color(0, 0, 0, 1)
+CheckButton/colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+CheckButton/colors/font_pressed_color = Color(0, 0, 0, 1)
+CheckButton/icons/checked = null
+CheckButton/icons/unchecked = null
+CheckButton/styles/focus = SubResource("StyleBoxFlat_ok6me")
+CheckButton/styles/hover = SubResource("StyleBoxFlat_snvaa")
+CheckButton/styles/hover_pressed = SubResource("StyleBoxFlat_xjmxx")
+CheckButton/styles/normal = SubResource("StyleBoxFlat_o03a7")
+CheckButton/styles/pressed = SubResource("StyleBoxFlat_xym2t")
+HSeparator/constants/separation = 30
+HSeparator/styles/separator = SubResource("StyleBoxLine_m3m6t")
+LineEdit/colors/caret_color = Color(0, 0, 0, 1)
+LineEdit/colors/font_color = Color(0, 0, 0, 1)
+LineEdit/colors/font_uneditable_color = Color(1, 1, 1, 0.788235)
+LineEdit/colors/selection_color = Color(0, 0.328891, 1, 1)
+LineEdit/constants/caret_width = 2
+LineEdit/constants/minimum_character_width = 2
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_navgf")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_q2qll")
+LineEdit/styles/read_only = SubResource("StyleBoxFlat_4x640")

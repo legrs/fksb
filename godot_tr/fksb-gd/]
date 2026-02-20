@@ -1,0 +1,96 @@
+using Godot;
+using System;
+using static Main;
+
+public partial class Canvas : Control
+{
+
+    float sin,cos;
+
+    Vector2[] arrowHead = new Vector2[3];
+    Vector2 vec1 = new Vector2(0,0);
+    Vector2 vec2 = new Vector2(0,0);
+
+    // Called when the node enters the scene tree for the first time.
+    public override void _Ready()
+    {
+        sin = MathF.Sin(Main.arrowAngl);
+        cos = MathF.Cos(Main.arrowAngl);
+    }
+
+    // Called every frame. 'delta' is the elapsed time since the previous frame.
+    public override void _Process(double delta)
+    {
+        QueueRedraw();
+    }
+    public void makeArrowHead(Vector2[] poly, Vector2 v1, Vector2 v2){
+        v1 = v1 + v2;
+        v2 = v2 * Main.arrowLength / v2.Length();
+        poly[0].X = v1.X +  v2.X*cos - v2.Y*sin;
+        poly[0].Y = v1.Y +  v2.X*sin + v2.Y*cos;
+
+        poly[1].X = v1.X +  v2.X*cos + v2.Y*sin;
+        poly[1].Y = v1.Y + -v2.X*sin + v2.Y*cos;
+
+        poly[2] = v1;
+    }
+
+    public override void _Draw(){
+
+        // Main.ori
+        float len = 50;
+        Quat q = new Quat(new Vec3(0,1,0) , camAngl[1]);
+        q = Quat.concat(q,new Quat(new Vec3(0,0,-1), camAngl[0]));
+        //q = Quat.concat(Main.ori , q);
+
+        Main.Vec3 x = (new Main.Vec3(len,0,0)).rotate(q);
+        Main.Vec3 y = (new Main.Vec3(0,len,0)).rotate(q);
+        Main.Vec3 z = (new Main.Vec3(0,0,len)).rotate(q);
+
+        Vector2 xp = new Vector2(x.y , -x.z);
+        Vector2 yp = new Vector2(y.y , -y.z);
+        Vector2 zp = new Vector2(z.y , -z.z);
+
+        DrawLine(Main.svc.GlobalPosition + Main.svc.Size/2, Main.svc.GlobalPosition + Main.svc.Size/2 + xp, Main.red, 2);
+        DrawLine(Main.svc.GlobalPosition + Main.svc.Size/2, Main.svc.GlobalPosition + Main.svc.Size/2 + yp, Main.green, 2);
+        DrawLine(Main.svc.GlobalPosition + Main.svc.Size/2, Main.svc.GlobalPosition + Main.svc.Size/2 + zp, Main.blue, 2);
+
+        makeArrowHead(arrowHead, Main.svc.GlobalPosition + Main.svc.Size/2, xp);
+        DrawPolygon(arrowHead, [Main.red]);
+
+        
+
+
+
+        // dummy
+        Main.graphDat[0].Add(MathF.Cos((float)time)*Main.graphArea.Size.Y/2);
+
+        // draw time axis
+        vec1.X = 0;
+        vec1.Y = Main.graphArea.Size.Y/2;
+        vec2.X = Main.graphArea.Size.X;
+        vec2.Y = 0;
+        DrawLine(vec1 , vec1 + vec2 , Main.graphColor[3] , 2);
+        makeArrowHead(arrowHead, vec1, vec2);
+        DrawPolygon(arrowHead, [Main.graphColor[3]]);
+
+        // scroll
+        for(int i=0; i<4; i++){
+            if(Main.graphDatLen < Main.graphDat[i].Count){
+                Main.graphDat[i].RemoveAt(0);
+            }
+        }
+
+        // draw graph
+        for(int i=0; i<4; i++){
+            if(2 < Main.graphDat[i].Count){
+                Vector2[] points = new Vector2[Main.graphDat[i].Count];
+                for(int j=0; j<Main.graphDat[i].Count; j++){
+                    points[j].X = j*Main.graphArea.Size.X/Main.graphDatLen + Main.graphArea.Position.X;
+                    points[j].Y = -Main.graphDat[i][j] + Main.graphArea.Size.Y/2 + Main.graphArea.Position.Y;
+                }
+                DrawPolyline(points, Main.graphColor[i], 2);
+            }
+        }
+    }
+}

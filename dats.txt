@@ -1,0 +1,12 @@
+0     : -
+819   : invalid
+1639  : setup
+2457  : -
+3276  : invalid
+4915  : start
+6553  : setup
+8192  : invalid
+9830  : invalid
+11468 : setup
+13107 : invalid
+14745 : invalid

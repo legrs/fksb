@@ -1,0 +1,616 @@
+[gd_scene load_steps=13 format=3 uid="uid://cl1xb34cd2mge"]
+
+[ext_resource type="Script" uid="uid://d1i86m2g28vir" path="res://Main.cs" id="1_0fbet"]
+[ext_resource type="Theme" uid="uid://cvnso2p1g35qq" path="res://mainTheme.tres" id="1_62e2m"]
+[ext_resource type="PackedScene" uid="uid://dg2ru80l7xx6v" path="res://cansat.glb" id="3_qtu10"]
+[ext_resource type="Script" uid="uid://b1xfyhki84vsd" path="res://Canvas.cs" id="4_ee4bf"]
+[ext_resource type="Texture2D" uid="uid://rmgofhxrh6wg" path="res://imgs/logo.png" id="5_kbped"]
+
+[sub_resource type="Environment" id="Environment_qtu10"]
+background_mode = 1
+background_color = Color(0.31061712, 0.31061712, 0.31061706, 1)
+background_energy_multiplier = 2.0
+
+[sub_resource type="SystemFont" id="SystemFont_ee4bf"]
+font_names = PackedStringArray("Monospace")
+font_weight = 100
+hinting = 0
+subpixel_positioning = 0
+keep_rounding_remainders = false
+msdf_pixel_range = 4
+msdf_size = 32
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kbped"]
+bg_color = Color(0.9035985, 0.9035982, 0.9035982, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.6, 0.5882353, 0.5058824, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_62e2m"]
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="SystemFont" id="SystemFont_fj5cn"]
+font_names = PackedStringArray("Monospace")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ee4bf"]
+bg_color = Color(0.8862618, 0.88626146, 0.8862615, 1)
+border_width_left = 4
+border_width_top = 4
+border_color = Color(0.58367324, 0.585059, 0.5888441, 1)
+
+[sub_resource type="SystemFont" id="SystemFont_kbped"]
+font_names = PackedStringArray("Monospace")
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_62e2m")
+script = ExtResource("1_0fbet")
+
+[node name="monostick" type="FtdiNode" parent="."]
+
+[node name="r3" type="FtdiNode" parent="."]
+
+[node name="tc" type="TabContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+current_tab = 0
+
+[node name="realtime" type="HSplitContainer" parent="tc"]
+layout_mode = 2
+split_offset = 450
+metadata/_tab_index = 0
+
+[node name="vsc" type="VSplitContainer" parent="tc/realtime"]
+layout_mode = 2
+split_offset = 220
+
+[node name="cr1" type="ColorRect" parent="tc/realtime/vsc"]
+layout_mode = 2
+
+[node name="cr2" type="ColorRect" parent="tc/realtime/vsc"]
+layout_mode = 2
+color = Color(0, 0, 0, 1)
+
+[node name="svc" type="SubViewportContainer" parent="tc/realtime/vsc/cr2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="sv" type="SubViewport" parent="tc/realtime/vsc/cr2/svc"]
+handle_input_locally = false
+oversampling = false
+size = Vector2i(450, 396)
+render_target_update_mode = 4
+
+[node name="Node3D" type="Node3D" parent="tc/realtime/vsc/cr2/svc/sv"]
+
+[node name="cansat" parent="tc/realtime/vsc/cr2/svc/sv/Node3D" instance=ExtResource("3_qtu10")]
+
+[node name="cam" type="Camera3D" parent="tc/realtime/vsc/cr2/svc/sv/Node3D"]
+transform = Transform3D(1.9106855e-15, 4.371139e-08, 1, 1, -4.371139e-08, 0, 4.371139e-08, 1, -4.371139e-08, 300, 0, 0)
+environment = SubResource("Environment_qtu10")
+projection = 1
+size = 200.0
+near = 10.0
+far = 10000.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="tc/realtime/vsc/cr2/svc/sv/Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.22325009, -0.9747612, 0, 0.9747612, 0.22325009, 0, 0, 0)
+
+[node name="indicator" type="Panel" parent="tc/realtime"]
+layout_mode = 2
+
+[node name="hsc2" type="HSplitContainer" parent="tc/realtime/indicator"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.01
+anchor_right = 0.99
+anchor_bottom = 0.99
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 663
+
+[node name="vc" type="VBoxContainer" parent="tc/realtime/indicator/hsc2"]
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc"]
+layout_mode = 2
+text = "
+運用中：松本深志高校地学會 Fks-B-II(全国大会仕様)"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+horizontal_alignment = 1
+
+[node name="HSeparator5" type="HSeparator" parent="tc/realtime/indicator/hsc2/vc"]
+custom_minimum_size = Vector2(0, 18.185)
+layout_mode = 2
+
+[node name="raw" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc"]
+custom_minimum_size = Vector2(0, 20.185)
+layout_mode = 2
+theme_override_fonts/normal_font = SubResource("SystemFont_ee4bf")
+theme_override_font_sizes/normal_font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_kbped")
+text = " 0D 2A 33 A3 00 05 89 99 AF 00 0F 0A 0B BD 9D 0C"
+scroll_active = false
+autowrap_mode = 0
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "
+Ori : ( 1.0000 , 0.0000 , 0.0000 , 0.0000 )
+
+mp : ( 0.0000 , 0.0000 , 0.0000 )
+
+solar : 0.025
+
+
+"
+scroll_active = false
+
+[node name="vc2" type="VBoxContainer" parent="tc/realtime/indicator/hsc2/vc"]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="HSeparator4" type="HSeparator" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+custom_minimum_size = Vector2(0, 18.185)
+layout_mode = 2
+
+[node name="piBno" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piBno"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piBno/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]センサ"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piBno"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piMemory" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piMemory"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piMemory/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]メモリ"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piMemory"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="HSeparator2" type="HSeparator" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+custom_minimum_size = Vector2(0, 18.185)
+layout_mode = 2
+
+[node name="piRunning" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piRunning"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piRunning/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]起動"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piRunning"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piWriting" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piWriting"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piWriting/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]フライトモード"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piWriting"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piLaunched" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piLaunched"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piLaunched/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]リフトオフ"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piLaunched"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piSeparated" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piSeparated"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piSeparated/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]分離"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piSeparated"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piLanding" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piLanding"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piLanding/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]着地"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piLanding"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="HSeparator3" type="HSeparator" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+custom_minimum_size = Vector2(0, 18.185)
+layout_mode = 2
+
+[node name="piControlling" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piControlling"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piControlling/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]制御中"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piControlling"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piStarted" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piStarted"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piStarted/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]開始信号受信"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piStarted"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="piStopped" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piStopped"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piStopped/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]停止信号受信"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piStopped"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="HSeparator" type="HSeparator" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+custom_minimum_size = Vector2(0, 18.185)
+layout_mode = 2
+
+[node name="piReceive" type="HBoxContainer" parent="tc/realtime/indicator/hsc2/vc/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="cc" type="CenterContainer" parent="tc/realtime/indicator/hsc2/vc/vc2/piReceive"]
+layout_mode = 2
+size_flags_horizontal = 10
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc/vc2/piReceive/cc"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+text = "[right]受信"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+
+[node name="point" type="Panel" parent="tc/realtime/indicator/hsc2/vc/vc2/piReceive"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_62e2m")
+
+[node name="vc2" type="VBoxContainer" parent="tc/realtime/indicator/hsc2"]
+layout_mode = 2
+
+[node name="txt" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc2"]
+layout_mode = 2
+text = " 　コマンド
+1 フライトモード オン
+2 強制リフトオフフラグ立て
+3 
+4
+5
+6"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+
+[node name="txt2" type="RichTextLabel" parent="tc/realtime/indicator/hsc2/vc2"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/normal_font = SubResource("SystemFont_fj5cn")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ee4bf")
+scroll_following = true
+autowrap_mode = 0
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="flash" type="Panel" parent="tc"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="hc" type="HSplitContainer" parent="tc/flash"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.01
+anchor_top = 0.01
+anchor_right = 0.99
+anchor_bottom = 0.99
+grow_horizontal = 2
+grow_vertical = 2
+split_offset = 785
+
+[node name="vc" type="VBoxContainer" parent="tc/flash/hc"]
+layout_mode = 2
+
+[node name="txt3" type="RichTextLabel" parent="tc/flash/hc/vc"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_fonts/normal_font = SubResource("SystemFont_fj5cn")
+theme_override_font_sizes/normal_font_size = 14
+theme_override_styles/normal = SubResource("StyleBoxFlat_ee4bf")
+scroll_following = true
+autowrap_mode = 0
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="HSeparator" type="HSeparator" parent="tc/flash/hc/vc"]
+layout_mode = 2
+
+[node name="txt2" type="RichTextLabel" parent="tc/flash/hc/vc"]
+custom_minimum_size = Vector2(0, 129.875)
+layout_mode = 2
+
+[node name="progress" type="ProgressBar" parent="tc/flash/hc/vc"]
+layout_mode = 2
+max_value = 1.0
+
+[node name="HSeparator2" type="HSeparator" parent="tc/flash/hc/vc"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="tc/flash/hc/vc"]
+custom_minimum_size = Vector2(0, 66.29)
+layout_mode = 2
+text = "データ抽出開始"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="tc/flash/hc"]
+layout_mode = 2
+
+[node name="txt" type="RichTextLabel" parent="tc/flash/hc/VBoxContainer2"]
+layout_mode = 2
+text = "1. Twelite R3を介してFks-Bに接続
+
+2. 3秒ほど待機
+
+3. 抽出
+
+4. 抽出完了の文字が出るまで待つ
+
+・データは ~/fksb/record/flash/下に時刻を含んだファイルで名保存されます．
+・終了する場合はアプリを閉じてください．
+・"
+fit_content = true
+scroll_active = false
+
+[node name="viewer" type="Panel" parent="tc"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
+
+[node name="clock" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.65
+anchor_right = 1.0
+anchor_bottom = 0.047000002
+offset_top = 4.0
+theme_override_fonts/normal_font = SubResource("SystemFont_kbped")
+theme_override_font_sizes/normal_font_size = 20
+text = "JST 2026/02/06 00:22:41.1"
+scroll_active = false
+autowrap_mode = 0
+
+[node name="title" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.047000002
+offset_top = 4.0
+mouse_filter = 2
+theme_override_font_sizes/normal_font_size = 25
+text = "Fks-B 地上局v1.5"
+scroll_active = false
+autowrap_mode = 0
+horizontal_alignment = 1
+
+[node name="canvas" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("4_ee4bf")
+
+[node name="Logo" type="Sprite2D" parent="."]
+position = Vector2(1101.97, 16.91)
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("5_kbped")

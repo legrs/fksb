@@ -1,0 +1,9 @@
+In file included from /home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_utils_smplbuf.hpp:14:0,
+                 from /home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_utils_payload.hpp:12,
+                 from /home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/_tweltite.hpp:33,
+                 from /home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/twelite.hpp:6,
+                 from /home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/TWELITE:3,
+                 from /home/legrs/fksb/MWSTAGE/MWSDK/Act_samples/act1/act1.cpp:2:
+/home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_stream.hpp: In function 'void on_rx_packet(mwx::L1::packet_rx&, bool_t&)':
+/home/legrs/fksb/MWSTAGE/MWSDK/TWENET/current/src/mwx/mwx_stream.hpp:504:4: warning: 'com' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/legrs/fksb/MWSTAGE/MWSDK/Act_samples/act1/act1.cpp:191:10: note: 'com' was declared here
