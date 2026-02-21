@@ -2,8 +2,22 @@ using System;
 using System.Numerics;
 using G = Godot;
 using GD = Godot.GD;
+using MathNet.Numerics.LinearAlgebra;
+using MathNet.Numerics.LinearAlgebra.Factorizaton;
+using MathNet.Numerics.LinearAlgebra.Double;
 using Matrix = MathNet.Numerics.LinearAlgebra.Matrix<double>;
 using static Draw;
+
+/*
+-----------------------------------------------------------------
+
+# Units
+ - [M] : g
+ - [L] : mm
+ - [T] : s
+
+-----------------------------------------------------------------
+*/
 
 // templates
 // GD.Print($"ori : {ori.toString()}");
@@ -44,13 +58,26 @@ public partial class Main : G.Control {
     static float cm = 200; //g
     Vec3 r = new Vec3(0,0,-ch/2); // vector from forcePoint to centerOfGravity [local]
 
-        // moment of inertia of cansat (primary 
+        // moment of inertia of cansat [g*mm*mm] copy and paste from FreeCAD
+    double Ixx =  1152.7952613737268 ;
+    double Iyy =  1122.952232279571 ;
+    double Izz =  217.28555268980446 ;
+    double Ixy =  19.546239581203878 ;
+    double Ixz =  7.465188584581248 ;
+    double Iyz =  -44.51225406181286 ;
     Matrix moi = Matrix.Build.DenseOfArray(new double[,]{
-            {228420.0056165047, 8274.768464746485, -9381.85078913948}, 
-            {8274.768464746485, 232671.22497855005, -1539.1150197159873},
-            {-9381.85078913948, -1539.1150197159873, 126288.87099417835}
+            {Ixx,Ixy,Ixz},
+            {Ixy,Iyy,Iyz},
+            {Ixz,Iyz,Izz}
             });
-    Vec3 cmoi = new Vec3(cm*cd*cd/16 + cm*ch*ch/12 , cm*cd*cd/16 + cm*ch*ch/12 , cm*cd*cd/8);
+    // eigen value decomposition 
+    Evd<double> ev = moi.Evd();
+    // primary MOI
+    Vec3 cmoi = new Vec3(ev.EigenValues[0].Read,
+            ev.EigenValues[1].Read,
+            ev.EigenValues[2].Read
+            );
+    //Vec3 cmoi = new Vec3(cm*cd*cd/16 + cm*ch*ch/12 , cm*cd*cd/16 + cm*ch*ch/12 , cm*cd*cd/8); cylinder's PMOI
         // reaction wheels
     static float wd1 = 15; //mm smaller diameter ( hole )
     static float wd2 = 40; //mm
@@ -140,9 +167,7 @@ public partial class Main : G.Control {
         rb.Inertia = cmoi.toGV();
         rb.CenterOfMass = r.toGV();
 
-        Vec3 test = new Vec3(10000,500,-1000);
-        test.clip(100);
-        GD.Print($"result {test.toString()}");
+        GD.Print($"cmoi : {cmoi.toString()}")
     }
 
     public override void _Input(Godot.InputEvent Event){
@@ -528,8 +553,5 @@ public partial class Main : G.Control {
 
 /* memo for you
     - とりあえず制御の理論はできたんだじぇ
-    - これからはsimulationの条件を現実に合わせていくのと、
-      実用的なデータ送受信含めた本番のシステムを再考すべきだじぇ
-    - まずはinertiaなどをリアルに合わせたいじょ
-    - GodotでTWELITEと通信できるかどうか、これすごくだいじだじょ。
+    - MOIのeigen valueどうやってだすじょ
 */

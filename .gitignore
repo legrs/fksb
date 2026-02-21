@@ -8,4 +8,4 @@ MWSTAGE/MWSDK/*
 
 3ddat/
 
-!3ddat/*.FCStd
+!*.FCStd
