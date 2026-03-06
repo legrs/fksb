@@ -1,0 +1,11 @@
+
+$$ \dot{\boldsymbol{\omega}} = K_p \boldsymbol{v} + K_d \boldsymbol{\omega}$$
+$$ \boldsymbol{g} = \boldsymbol{W}_{zz} ( \boldsymbol{\omega} \times \boldsymbol{m} ) $$
+$$ \boldsymbol{\tau}_x = \boldsymbol{I}_{xx}  \dot{\boldsymbol{\omega}}_x  + (\boldsymbol{I}_{zz} - \boldsymbol{I}_{yy})  \boldsymbol{\omega}_z  \boldsymbol{\omega}_y - \boldsymbol{g}_x $$
+$$ \boldsymbol{\tau}_y = \boldsymbol{I}_{yy}  \dot{\boldsymbol{\omega}}_y  + (\boldsymbol{I}_{xx} - \boldsymbol{I}_{zz})  \boldsymbol{\omega}_x  \boldsymbol{\omega}_z - \boldsymbol{g}_y $$
+$$ \boldsymbol{\tau}_z = \boldsymbol{I}_{zz}  \dot{\boldsymbol{\omega}}_z  + (\boldsymbol{I}_{yy} - \boldsymbol{I}_{xx})  \boldsymbol{\omega}_y  \boldsymbol{\omega}_x - \boldsymbol{g}_z $$
+
+$$\boldsymbol{v}$$は姿勢のズレ(回転)を表すベクトル，$$\boldsymbol{\omega}$$は角速度です．$$K_p$$と$$K_d$$はそれぞれ負の値を取る定数です．$$\boldsymbol{I}$$は機体の慣性行列で，$$\boldsymbol{W}$$はRW(Reaction Wheel)の，回転軸を$$z$$軸としたときの慣性行列です．Eularの運動方程式に基づいています．
+
+
+

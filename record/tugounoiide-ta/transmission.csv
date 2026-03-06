@@ -1,0 +1,5 @@
+packet-loss test ( 50m horizonal  0.5m from ground )
+
+MONOSTICK_BLUE : 24 loss/128
+DIP_BLUE+MW-A-P2010 : 20+14+4 = 38 loss/128
+COMMON : 9+8+3=20 loss/128

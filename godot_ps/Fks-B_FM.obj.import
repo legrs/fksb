@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ceiut05gkjcny"
+path="res://.godot/imported/Fks-B_FM.obj-438f269f67c27e27f4f8fd69009b01d7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Fks-B_FM.obj-438f269f67c27e27f4f8fd69009b01d7.mesh"]
+
+source_file="res://Fks-B_FM.obj"
+dest_files=["res://.godot/imported/Fks-B_FM.obj-438f269f67c27e27f4f8fd69009b01d7.mesh", "res://.godot/imported/Fks-B_FM.obj-438f269f67c27e27f4f8fd69009b01d7.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
