@@ -14,7 +14,7 @@
 #define AXIS_LINE_WIDTH2 0.3
 #define AXIS_LINE_WIDTH3 0.5
 #define AXIS_COLOR 150
-#define INPUT_FILE_PATH "../record/realtime/260222-2058.csv"
+#define INPUT_FILE_PATH "../record/tugounoiide-ta/launch_ground.csv"
 
 //index,flag1,flag2,orimp ( Big-Endian )
 
@@ -78,19 +78,19 @@ int main(){
         doc << Line("l",Point(i,0),Point(i,X_LIMIT),Stroke(width,grayColor));
     }
     // x axis
-    for(float i=0; i<=X_LIMIT; i+=10){
-        float width;
-        if((int)i%50 == 0){
-            if((int)1%100 == 0){
-                width = AXIS_LINE_WIDTH3;
-            }else{
-                width = AXIS_LINE_WIDTH2;
-            }
-        }else{
-            width = AXIS_LINE_WIDTH1;
-        }
-        doc << Line("l",Point(0,i),Point(T_LIMIT,i),Stroke(width,grayColor));
-    }
+    //for(float i=0; i<=X_LIMIT; i+=10){
+    //    float width;
+    //    if((int)i%50 == 0){
+    //        if((int)1%100 == 0){
+    //            width = AXIS_LINE_WIDTH3;
+    //        }else{
+    //            width = AXIS_LINE_WIDTH2;
+    //        }
+    //    }else{
+    //        width = AXIS_LINE_WIDTH1;
+    //    }
+    //    doc << Line("l",Point(0,i),Point(T_LIMIT,i),Stroke(width,grayColor));
+    //}
 
     vector<float> time;
     string tmp;
@@ -99,7 +99,8 @@ int main(){
     vector<float> acce[3];
     vector<float> mp[3];
     vector<int> index;
-    vector<unsigned char> flag[2];
+    vector<unsigned char> flag1;
+    vector<unsigned char> flag2;
     vector<float> temp;
 
     int dat_index = 0;
@@ -113,16 +114,13 @@ int main(){
         string dat_string[8];
         split(tmp, ',', dat_string);
         
-        index.push_back(stoi(dat_string[0]));
-        flag[0].push_back(str2bin(dat_string[1], 1));
-        flag[1].push_back(str2bin(dat_string[2], 1));
-
-        cout << dat_index << endl;
-        cout << tmp << endl;
-
+        time.push_back(stof(dat_string[0]));
+        index.push_back(stoi(dat_string[1]));
+        flag1.push_back(str2bin(dat_string[2], 1));
+        flag2.push_back(str2bin(dat_string[3], 1));
 
         string dat_string_tmp[4];
-        split(dat_string[3], ' ', dat_string_tmp);
+        split(dat_string[4], ' ', dat_string_tmp);
         for(int i=0; i<4; i++){
             ori[i].push_back(stof(dat_string_tmp[i]));
         }
@@ -130,7 +128,7 @@ int main(){
         dat_string_tmp[1] = "";
         dat_string_tmp[2] = "";
         dat_string_tmp[3] = "";
-        split(dat_string[4], ' ', dat_string_tmp);
+        split(dat_string[5], ' ', dat_string_tmp);
         for(int i=0; i<3; i++){
             mp[i].push_back(stof(dat_string_tmp[i]));
         }
@@ -142,20 +140,38 @@ int main(){
 
     // plot & cal
     int size = index.size();
-    for(int i=0; i<size; i++){
-        int t,x;
-        t = i;
+    float t = 0;
+    for(int i=1; i<size; i++){
+        int x,mode;
+        bool doPlot = true;
+        mode = ((int)flag1[i]&(0b00000011)) + 1;
+        cout << mode << endl;
+        switch(mode){
+            case 2:
+                t += 100.0f;
+                break;
+            case 3:
+                t += 30.0;
+                break;
+            case 4:
+                t += 1000.0f/60.0f;
+                break;
+        }
 
-        x = mp[0][i]*X_LIMIT/200;
-        p_r << Point((float)t, (float)x);
-        x = mp[1][i]*X_LIMIT/200;
-        p_g << Point((float)t, (float)x);
-        x = mp[2][i]*X_LIMIT/200;
-        p_b << Point((float)t, (float)x);
+        if(doPlot){
+            x = index[i-1]*X_LIMIT/255;
+            p_k << Point((float)t/10, (float)x);
+            x = index[i]*X_LIMIT/255;
+            p_k << Point((float)t/10, (float)x);
+        }
 
-        x = index[i]*X_LIMIT/255;
-        p_k << Point((float)t, (float)x);
 
+        //x = mp[0][i]*X_LIMIT/200;
+        //p_r << Point((float)t, (float)x);
+        //x = mp[1][i]*X_LIMIT/200;
+        //p_g << Point((float)t, (float)x);
+        //x = mp[2][i]*X_LIMIT/200;
+        //p_b << Point((float)t, (float)x);
 
     }
     

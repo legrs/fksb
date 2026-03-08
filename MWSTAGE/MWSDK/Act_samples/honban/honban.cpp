@@ -29,7 +29,7 @@
 #define FLASH_MAX 0x07FFFF
 #define DAT_LEN 30
 #define PKT_LEN 17
-#define ISMAIN true
+#define ISMAIN false
 
 // constant
 constexpr uint16_t M_MIN =  0;
@@ -38,18 +38,18 @@ constexpr uint16_t M_MAX =  300; //3200
 constexpr float M_RES =  0.03f; // restoring factor
 //constexpr uint16_t SLEEP_DELAY =1000; //ms
 //constexpr uint16_t STANBY_DELAY = 100; 
-constexpr uint16_t CONTROL_HZ = 60; // controlling frequency Timer0
+constexpr uint16_t CONTROL_HZ = 30; // controlling frequency Timer0
 constexpr float CONTROL_DELAY = 1.0f/CONTROL_HZ; // controlling frequency Timer0
-constexpr float GAIN =  0.5f; // gain
-constexpr float K_P_GAIN = 0.35f;
-constexpr float K_D_GAIN = 0.40f;
+constexpr float GAIN =  0.4f; // gain
+constexpr float K_P_GAIN = 0.15f;
+constexpr float K_D_GAIN = 0.04f;
 //constexpr float K_I_GAIN = 0.0f;
 constexpr float K_P = GAIN * -K_P_GAIN / CONTROL_DELAY;
 constexpr float K_D = GAIN * -K_D_GAIN / CONTROL_DELAY;
 //constexpr float K_I = GAIN * -K_I_GAIN / CONTROL_DELAY;
-constexpr float LPF_FAC = 0.65f;
+constexpr float LPF_FAC = 1.0f;
 constexpr float LPF_FAC2 = 1.0f - LPF_FAC;
-constexpr float MUSHI = 0.15f; //目標値付近で「無」になるため 7°ぐらい
+constexpr float MUSHI = 0.00f; //目標値付近で「無」になるため 7°ぐらい
 constexpr float MUSHI_AVEL = 0;
 // 注意: BNO055の最大加速度は40m/s/s
 constexpr float LAUNCH_ACCE = 25; //3gぐらい
@@ -1014,9 +1014,9 @@ void loop() {
                             setrs(i, 0xFF00);
                         }
                     }
-                    if(LANDING_ACCE < abs(acce.z)){
-                        setmode(1);
-                    }
+                    //if(LANDING_ACCE < abs(acce.z)){
+                    //    setmode(1);
+                    //}
                     //10回に1回
                     if(index%10 == 0){
                         ori.setToByte(buff);

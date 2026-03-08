@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000px"
+   height="100px"
+   version="1.1"
+   id="svg214"
+   sodipodi:docname="fg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs218" />
+  <sodipodi:namedview
+     id="namedview216"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false" />
+  <rect
+     id="back"
+     x="0"
+     y="0"
+     width="1000"
+     height="122.6422"
+     fill="#ffffff"
+     style="stroke-width:1.10744" />
+  <line
+     id="line4"
+     x1="10"
+     y1="100"
+     x2="10"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line6"
+     x1="20"
+     y1="100"
+     x2="20"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line8"
+     x1="30"
+     y1="100"
+     x2="30"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line10"
+     x1="40"
+     y1="100"
+     x2="40"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line12"
+     x1="50"
+     y1="100"
+     x2="50"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line14"
+     x1="60"
+     y1="100"
+     x2="60"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line16"
+     x1="70"
+     y1="100"
+     x2="70"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line18"
+     x1="80"
+     y1="100"
+     x2="80"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line20"
+     x1="90"
+     y1="100"
+     x2="90"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line22"
+     x1="100"
+     y1="100"
+     x2="100"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line24"
+     x1="110"
+     y1="100"
+     x2="110"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line26"
+     x1="120"
+     y1="100"
+     x2="120"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line28"
+     x1="130"
+     y1="100"
+     x2="130"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line30"
+     x1="140"
+     y1="100"
+     x2="140"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line32"
+     x1="150"
+     y1="100"
+     x2="150"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line34"
+     x1="160"
+     y1="100"
+     x2="160"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line36"
+     x1="170"
+     y1="100"
+     x2="170"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line38"
+     x1="180"
+     y1="100"
+     x2="180"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line40"
+     x1="190"
+     y1="100"
+     x2="190"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line42"
+     x1="200"
+     y1="100"
+     x2="200"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line44"
+     x1="210"
+     y1="100"
+     x2="210"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line46"
+     x1="220"
+     y1="100"
+     x2="220"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line48"
+     x1="230"
+     y1="100"
+     x2="230"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line50"
+     x1="240"
+     y1="100"
+     x2="240"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line52"
+     x1="250"
+     y1="100"
+     x2="250"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line54"
+     x1="260"
+     y1="100"
+     x2="260"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line56"
+     x1="270"
+     y1="100"
+     x2="270"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line58"
+     x1="280"
+     y1="100"
+     x2="280"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line60"
+     x1="290"
+     y1="100"
+     x2="290"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line62"
+     x1="300"
+     y1="100"
+     x2="300"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line64"
+     x1="310"
+     y1="100"
+     x2="310"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line66"
+     x1="320"
+     y1="100"
+     x2="320"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line68"
+     x1="330"
+     y1="100"
+     x2="330"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line70"
+     x1="340"
+     y1="100"
+     x2="340"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line72"
+     x1="350"
+     y1="100"
+     x2="350"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line74"
+     x1="360"
+     y1="100"
+     x2="360"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line76"
+     x1="370"
+     y1="100"
+     x2="370"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line78"
+     x1="380"
+     y1="100"
+     x2="380"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line80"
+     x1="390"
+     y1="100"
+     x2="390"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line82"
+     x1="400"
+     y1="100"
+     x2="400"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line84"
+     x1="410"
+     y1="100"
+     x2="410"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line86"
+     x1="420"
+     y1="100"
+     x2="420"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line88"
+     x1="430"
+     y1="100"
+     x2="430"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line90"
+     x1="440"
+     y1="100"
+     x2="440"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line92"
+     x1="450"
+     y1="100"
+     x2="450"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line94"
+     x1="460"
+     y1="100"
+     x2="460"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line96"
+     x1="470"
+     y1="100"
+     x2="470"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line98"
+     x1="480"
+     y1="100"
+     x2="480"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line100"
+     x1="490"
+     y1="100"
+     x2="490"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line102"
+     x1="500"
+     y1="100"
+     x2="500"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line104"
+     x1="510"
+     y1="100"
+     x2="510"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line106"
+     x1="520"
+     y1="100"
+     x2="520"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line108"
+     x1="530"
+     y1="100"
+     x2="530"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line110"
+     x1="540"
+     y1="100"
+     x2="540"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line112"
+     x1="550"
+     y1="100"
+     x2="550"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line114"
+     x1="560"
+     y1="100"
+     x2="560"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line116"
+     x1="570"
+     y1="100"
+     x2="570"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line118"
+     x1="580"
+     y1="100"
+     x2="580"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line120"
+     x1="590"
+     y1="100"
+     x2="590"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line122"
+     x1="600"
+     y1="100"
+     x2="600"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line124"
+     x1="610"
+     y1="100"
+     x2="610"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line126"
+     x1="620"
+     y1="100"
+     x2="620"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line128"
+     x1="630"
+     y1="100"
+     x2="630"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line130"
+     x1="640"
+     y1="100"
+     x2="640"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line132"
+     x1="650"
+     y1="100"
+     x2="650"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line134"
+     x1="660"
+     y1="100"
+     x2="660"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line136"
+     x1="670"
+     y1="100"
+     x2="670"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line138"
+     x1="680"
+     y1="100"
+     x2="680"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line140"
+     x1="690"
+     y1="100"
+     x2="690"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line142"
+     x1="700"
+     y1="100"
+     x2="700"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line144"
+     x1="710"
+     y1="100"
+     x2="710"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line146"
+     x1="720"
+     y1="100"
+     x2="720"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line148"
+     x1="730"
+     y1="100"
+     x2="730"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line150"
+     x1="740"
+     y1="100"
+     x2="740"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line152"
+     x1="750"
+     y1="100"
+     x2="750"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line154"
+     x1="760"
+     y1="100"
+     x2="760"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line156"
+     x1="770"
+     y1="100"
+     x2="770"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line158"
+     x1="780"
+     y1="100"
+     x2="780"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line160"
+     x1="790"
+     y1="100"
+     x2="790"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line162"
+     x1="800"
+     y1="100"
+     x2="800"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line164"
+     x1="810"
+     y1="100"
+     x2="810"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line166"
+     x1="820"
+     y1="100"
+     x2="820"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line168"
+     x1="830"
+     y1="100"
+     x2="830"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line170"
+     x1="840"
+     y1="100"
+     x2="840"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line172"
+     x1="850"
+     y1="100"
+     x2="850"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line174"
+     x1="860"
+     y1="100"
+     x2="860"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line176"
+     x1="870"
+     y1="100"
+     x2="870"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line178"
+     x1="880"
+     y1="100"
+     x2="880"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line180"
+     x1="890"
+     y1="100"
+     x2="890"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line182"
+     x1="900"
+     y1="100"
+     x2="900"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line184"
+     x1="910"
+     y1="100"
+     x2="910"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line186"
+     x1="920"
+     y1="100"
+     x2="920"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line188"
+     x1="930"
+     y1="100"
+     x2="930"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line190"
+     x1="940"
+     y1="100"
+     x2="940"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line192"
+     x1="950"
+     y1="100"
+     x2="950"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line194"
+     x1="960"
+     y1="100"
+     x2="960"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line196"
+     x1="970"
+     y1="100"
+     x2="970"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line198"
+     x1="980"
+     y1="100"
+     x2="980"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line200"
+     x1="990"
+     y1="100"
+     x2="990"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line202"
+     x1="1000"
+     y1="100"
+     x2="1000"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,0,0)"
+     id="path204" />
+  <path
+     d="M10,93 10,89 20,89 20,85 30,85 30,81 40,81 40,100 50,100 50,97 60,97 60,93 70,93 70,89 80,89 80,85 90,85 90,81 100,81 100,77 110,77 110,100 120,100 120,100 130,100 130,100 140,100 140,97 150,97 150,93 160,93 160,89 170,89 170,85 180,85 180,81 190,81 190,77 200,77 200,73 210,73 210,69 220,69 220,65 230,65 230,61 240,61 240,57 250,57 250,53 260,53 260,50 270,50 270,46 280,46 280,42 290,42 290,38 300,38 300,34 310,34 310,30 320,30 320,26 330,26 330,22 340,22 340,18 350,18 350,14 360,14 360,10 370,10 370,6 380,6 380,2 390,2 390,100 400,100 400,97 410,97 410,93 420,93 420,89 430,89 430,85 440,85 440,81 450,81 450,77 460,77 460,73 470,73 470,69 480,69 480,65 490,65 490,61 500,61 500,57 510,57 510,53 520,53 520,50 530,50 530,46 533,46 533,42 536,42 536,38 539,38 539,34 542,34 542,30 545,30 545,26 548,26 548,22 551,22 551,18 552.667,18 552.667,14 554.333,14 554.333,10 556,10 556,6 557.667,6 557.667,2 559.333,2 559.333,100 561,100 561,97 562.667,97 562.667,93 564.333,93 564.333,89 566,89 566,85 567.667,85 567.667,81 569.333,81 569.333,77 571,77 571,73 572.666,73 572.666,69 574.333,69 574.333,65 576,65 576,61 577.666,61 577.666,57 579.333,57 579.333,53 581,53 581,50 582.666,50 582.666,46 584.333,46 584.333,42 586,42 586,38 587.666,38 587.666,34 589.333,34 589.333,30 591,30 591,26 592.666,26 592.666,22 594.333,22 594.333,18 596,18 596,14 597.666,14 597.666,10 599.333,10 599.333,6 601,6 601,2 602.666,2 602.666,100 604.333,100 604.333,97 605.999,97 605.999,93 607.666,93 607.666,89 609.333,89 609.333,85 610.999,85 610.999,81 612.666,81 612.666,77 614.333,77 614.333,73 615.999,73 615.999,69 617.666,69 617.666,65 619.333,65 619.333,61 620.999,61 620.999,57 622.666,57 622.666,53 "
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,0,0)"
+     id="path206"
+     style="stroke-width:0.5;stroke-dasharray:none" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,0,255)"
+     id="path208" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,128,0)"
+     id="path210" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(255,0,0)"
+     id="path212" />
+  <rect
+     style="fill:#a50000;fill-opacity:0.228029;stroke:none;stroke-width:0.553775;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1171"
+     width="71.666016"
+     height="122.66679"
+     x="551"
+     y="0" />
+  <rect
+     style="fill:#a57d00;fill-opacity:0.228029;stroke:none;stroke-width:0.299768;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1225"
+     width="21"
+     height="122.66679"
+     x="530"
+     y="0" />
+  <rect
+     style="fill:#13a500;fill-opacity:0.228029;stroke:none;stroke-width:1.49169;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1227"
+     width="520"
+     height="122.66679"
+     x="10"
+     y="0" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:15.11811024px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="270"
+     y="118.68457"
+     id="text1406"><tspan
+       sodipodi:role="line"
+       id="tspan1404"
+       x="270"
+       y="118.68457">フライトモード</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:15.1181px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#840000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="585.63464"
+     y="118.68457"
+     id="text2188"><tspan
+       sodipodi:role="line"
+       id="tspan2186"
+       x="585.63464"
+       y="118.68457">制御中</tspan></text>
+</svg>

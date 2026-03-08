@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000px"
+   height="100px"
+   version="1.1"
+   id="svg214"
+   sodipodi:docname="packet.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs218">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="namedview216"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.0456722"
+     inkscape:cx="247.20941"
+     inkscape:cy="-200.3496"
+     inkscape:window-width="1920"
+     inkscape:window-height="1122"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg214" />
+  <rect
+     id="back"
+     x="0"
+     y="0"
+     width="650"
+     height="122.6422"
+     fill="#ffffff"
+     style="stroke-width:1.12407"
+     inkscape:export-filename="packet.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <rect
+     style="fill:#a50000;fill-opacity:0.228029;stroke:none;stroke-width:0.507014;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1171"
+     width="60.073936"
+     height="122.66679"
+     x="551"
+     y="0" />
+  <line
+     id="line4"
+     x1="10"
+     y1="100"
+     x2="10"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line6"
+     x1="20"
+     y1="100"
+     x2="20"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line8"
+     x1="30"
+     y1="100"
+     x2="30"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line10"
+     x1="40"
+     y1="100"
+     x2="40"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line12"
+     x1="50"
+     y1="100"
+     x2="50"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line14"
+     x1="60"
+     y1="100"
+     x2="60"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line16"
+     x1="70"
+     y1="100"
+     x2="70"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line18"
+     x1="80"
+     y1="100"
+     x2="80"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line20"
+     x1="90"
+     y1="100"
+     x2="90"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line22"
+     x1="100"
+     y1="100"
+     x2="100"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line24"
+     x1="110"
+     y1="100"
+     x2="110"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line26"
+     x1="120"
+     y1="100"
+     x2="120"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line28"
+     x1="130"
+     y1="100"
+     x2="130"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line30"
+     x1="140"
+     y1="100"
+     x2="140"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line32"
+     x1="150"
+     y1="100"
+     x2="150"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line34"
+     x1="160"
+     y1="100"
+     x2="160"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line36"
+     x1="170"
+     y1="100"
+     x2="170"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line38"
+     x1="180"
+     y1="100"
+     x2="180"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line40"
+     x1="190"
+     y1="100"
+     x2="190"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line42"
+     x1="200"
+     y1="100"
+     x2="200"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line44"
+     x1="210"
+     y1="100"
+     x2="210"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line46"
+     x1="220"
+     y1="100"
+     x2="220"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line48"
+     x1="230"
+     y1="100"
+     x2="230"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line50"
+     x1="240"
+     y1="100"
+     x2="240"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line52"
+     x1="250"
+     y1="100"
+     x2="250"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line54"
+     x1="260"
+     y1="100"
+     x2="260"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line56"
+     x1="270"
+     y1="100"
+     x2="270"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line58"
+     x1="280"
+     y1="100"
+     x2="280"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line60"
+     x1="290"
+     y1="100"
+     x2="290"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line62"
+     x1="300"
+     y1="100"
+     x2="300"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line64"
+     x1="310"
+     y1="100"
+     x2="310"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line66"
+     x1="320"
+     y1="100"
+     x2="320"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line68"
+     x1="330"
+     y1="100"
+     x2="330"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line70"
+     x1="340"
+     y1="100"
+     x2="340"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line72"
+     x1="350"
+     y1="100"
+     x2="350"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line74"
+     x1="360"
+     y1="100"
+     x2="360"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line76"
+     x1="370"
+     y1="100"
+     x2="370"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line78"
+     x1="380"
+     y1="100"
+     x2="380"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line80"
+     x1="390"
+     y1="100"
+     x2="390"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line82"
+     x1="400"
+     y1="100"
+     x2="400"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line84"
+     x1="410"
+     y1="100"
+     x2="410"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line86"
+     x1="420"
+     y1="100"
+     x2="420"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line88"
+     x1="430"
+     y1="100"
+     x2="430"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line90"
+     x1="440"
+     y1="100"
+     x2="440"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line92"
+     x1="450"
+     y1="100"
+     x2="450"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line94"
+     x1="460"
+     y1="100"
+     x2="460"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line96"
+     x1="470"
+     y1="100"
+     x2="470"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line98"
+     x1="480"
+     y1="100"
+     x2="480"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line100"
+     x1="490"
+     y1="100"
+     x2="490"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line102"
+     x1="500"
+     y1="100"
+     x2="500"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line104"
+     x1="510"
+     y1="100"
+     x2="510"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line106"
+     x1="520"
+     y1="100"
+     x2="520"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line108"
+     x1="530"
+     y1="100"
+     x2="530"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line110"
+     x1="540"
+     y1="100"
+     x2="540"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line112"
+     x1="550"
+     y1="100"
+     x2="550"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line114"
+     x1="560"
+     y1="100"
+     x2="560"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line116"
+     x1="570"
+     y1="100"
+     x2="570"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line118"
+     x1="580"
+     y1="100"
+     x2="580"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line120"
+     x1="590"
+     y1="100"
+     x2="590"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line122"
+     x1="600"
+     y1="100"
+     x2="600"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line124"
+     x1="610"
+     y1="100"
+     x2="610"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line126"
+     x1="620"
+     y1="100"
+     x2="620"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line128"
+     x1="630"
+     y1="100"
+     x2="630"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line130"
+     x1="640"
+     y1="100"
+     x2="640"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line132"
+     x1="650"
+     y1="100"
+     x2="650"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line134"
+     x1="660"
+     y1="100"
+     x2="660"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line136"
+     x1="670"
+     y1="100"
+     x2="670"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line138"
+     x1="680"
+     y1="100"
+     x2="680"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line140"
+     x1="690"
+     y1="100"
+     x2="690"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line142"
+     x1="700"
+     y1="100"
+     x2="700"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line144"
+     x1="710"
+     y1="100"
+     x2="710"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line146"
+     x1="720"
+     y1="100"
+     x2="720"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line148"
+     x1="730"
+     y1="100"
+     x2="730"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line150"
+     x1="740"
+     y1="100"
+     x2="740"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line152"
+     x1="750"
+     y1="100"
+     x2="750"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line154"
+     x1="760"
+     y1="100"
+     x2="760"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line156"
+     x1="770"
+     y1="100"
+     x2="770"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line158"
+     x1="780"
+     y1="100"
+     x2="780"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line160"
+     x1="790"
+     y1="100"
+     x2="790"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line162"
+     x1="800"
+     y1="100"
+     x2="800"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line164"
+     x1="810"
+     y1="100"
+     x2="810"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line166"
+     x1="820"
+     y1="100"
+     x2="820"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line168"
+     x1="830"
+     y1="100"
+     x2="830"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line170"
+     x1="840"
+     y1="100"
+     x2="840"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line172"
+     x1="850"
+     y1="100"
+     x2="850"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line174"
+     x1="860"
+     y1="100"
+     x2="860"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line176"
+     x1="870"
+     y1="100"
+     x2="870"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line178"
+     x1="880"
+     y1="100"
+     x2="880"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line180"
+     x1="890"
+     y1="100"
+     x2="890"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line182"
+     x1="900"
+     y1="100"
+     x2="900"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line184"
+     x1="910"
+     y1="100"
+     x2="910"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line186"
+     x1="920"
+     y1="100"
+     x2="920"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line188"
+     x1="930"
+     y1="100"
+     x2="930"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line190"
+     x1="940"
+     y1="100"
+     x2="940"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line192"
+     x1="950"
+     y1="100"
+     x2="950"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line194"
+     x1="960"
+     y1="100"
+     x2="960"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line196"
+     x1="970"
+     y1="100"
+     x2="970"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line198"
+     x1="980"
+     y1="100"
+     x2="980"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line200"
+     x1="990"
+     y1="100"
+     x2="990"
+     y2="0"
+     stroke-width="0.1"
+     stroke="rgb(150,150,150)" />
+  <line
+     id="line202"
+     x1="1000"
+     y1="100"
+     x2="1000"
+     y2="0"
+     stroke-width="0.3"
+     stroke="rgb(150,150,150)" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,0,0)"
+     id="path204" />
+  <path
+     d="m 10,93 v -4 h 10 v -4 h 10 v -4 h 10 v 19 h 10 v -3 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v 23 h 10 v 0 h 10 v 0 h 10 v -3 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -3 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 V 6 h 10 V 2 h 10 v 98 h 10 v -3 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -4 h 10 v -3 h 10 v -4 h 3 v -4 h 3 v -4 h 3 v -4 h 3 v -4 h 3 v -4 h 3 v -4 h 3 v -4 h 1.667 v -4 h 1.666 V 10 H 556 V 6 h 1.667 V 2 h 1.666 v 98 H 561 v -3 h 1.667 v -4 h 1.666 V 89 H 566 v -4 h 1.667 v -4 h 1.666 V 77 H 571 v -4 0 -4 h 1.667 v -4 h 1.667 V 61 H 576 v -4 h 1.667 v -4 h 1.667 V 50 H 581 v -4 h 1.667 v -4 h 1.667 V 38 H 586 v -4 h 1.667 v -4 h 1.667 V 26 H 591 v -4 h 1.667 v -4 h 1.667 V 14 H 596 v -4 h 1.667 V 6 h 1.667 V 2 H 601 v 98 h 1.667 v -3 h 1.666 v -4 0 -4 H 606 v -4 0 -4 h 1.667 v -4 0 -4 0 -4 h 1.667 v -4 0 -4 0 -4 h 1.667 v -4"
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="#000000"
+     id="path206"
+     style="stroke-width:0.5;stroke-dasharray:none"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,0,255)"
+     id="path208" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(0,128,0)"
+     id="path210" />
+  <path
+     d=""
+     fill-rule="evenodd"
+     fill="none"
+     stroke-width="0.3"
+     stroke="rgb(255,0,0)"
+     id="path212" />
+  <rect
+     style="fill:#a57d00;fill-opacity:0.228029;stroke:none;stroke-width:0.299768;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1225"
+     width="21"
+     height="122.66679"
+     x="530"
+     y="0" />
+  <rect
+     style="fill:#13a500;fill-opacity:0.228029;stroke:none;stroke-width:1.49169;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="rect1227"
+     width="520"
+     height="122.66679"
+     x="10"
+     y="0" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:15.11811024px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#077000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="270"
+     y="118.68457"
+     id="text1406"><tspan
+       sodipodi:role="line"
+       id="tspan1404"
+       x="270"
+       y="118.68457">フライトモード</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:15.1181px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#840000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="585.63464"
+     y="118.68457"
+     id="text2188"><tspan
+       sodipodi:role="line"
+       id="tspan2186"
+       x="585.63464"
+       y="118.68457">制御中</tspan></text>
+  <path
+     sodipodi:type="star"
+     style="fill:#f00000;fill-opacity:1;stroke:none;stroke-width:4.80023;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="path1231"
+     inkscape:flatsided="true"
+     sodipodi:sides="3"
+     sodipodi:cx="530"
+     sodipodi:cy="50"
+     sodipodi:r1="14.872488"
+     sodipodi:r2="7.436244"
+     sodipodi:arg1="1.5707963"
+     sodipodi:arg2="2.6179939"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 530,64.872488 -12.87995,-22.308732 25.7599,0 z"
+     inkscape:transform-center-y="-1.2393733"
+     transform="matrix(0.20393302,0,0,-0.33333317,421.9155,71.624152)"
+     inkscape:transform-center-x="-2.5000046e-06" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:9.44882px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:3.91937;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="520"
+     y="66.46627"
+     id="text1287"><tspan
+       sodipodi:role="line"
+       id="tspan1285"
+       x="520"
+       y="66.46627">打ち上げ</tspan></text>
+  <path
+     sodipodi:type="star"
+     style="fill:#f00000;fill-opacity:1;stroke:none;stroke-width:4.80023;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="path1339"
+     inkscape:flatsided="true"
+     sodipodi:sides="3"
+     sodipodi:cx="530"
+     sodipodi:cy="50"
+     sodipodi:r1="14.872488"
+     sodipodi:r2="7.436244"
+     sodipodi:arg1="1.5707963"
+     sodipodi:arg2="2.6179939"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 530,64.872488 -12.87995,-22.308732 25.7599,0 z"
+     inkscape:transform-center-y="-1.2393733"
+     transform="matrix(0.20393302,0,0,-0.33333317,442.9155,43.624152)"
+     inkscape:transform-center-x="-2.5000046e-06" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:9.44882px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:3.91937;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="554.6972"
+     y="40.123192"
+     id="text1343"><tspan
+       sodipodi:role="line"
+       id="tspan1341"
+       x="554.6972"
+       y="40.123192">展開</tspan></text>
+  <path
+     sodipodi:type="star"
+     style="fill:#f00000;fill-opacity:1;stroke:none;stroke-width:4.80023;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     id="path1397"
+     inkscape:flatsided="true"
+     sodipodi:sides="3"
+     sodipodi:cx="530"
+     sodipodi:cy="50"
+     sodipodi:r1="14.872488"
+     sodipodi:r2="7.436244"
+     sodipodi:arg1="1.5707963"
+     sodipodi:arg2="2.6179939"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 530,64.872488 -12.87995,-22.308732 25.7599,0 z"
+     inkscape:transform-center-y="1.2393734"
+     transform="matrix(0.20393302,0,0,0.33333317,503.22882,30.854595)"
+     inkscape:transform-center-x="-2.5000046e-06" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:9.44882px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#f00000;fill-opacity:1;stroke:none;stroke-width:3.91937;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke fill markers"
+     x="611.35272"
+     y="41.433117"
+     id="text1401"><tspan
+       sodipodi:role="line"
+       id="tspan1399"
+       x="611.35272"
+       y="41.433117">着地</tspan></text>
+  <path
+     style="fill:none;fill-opacity:1;stroke:#010101;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:stroke fill markers"
+     d="m 581.60336,85.179183 -9,-11.218648"
+     id="path2866" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#010101;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:stroke fill markers"
+     d="m 619.55433,74.097592 -9,-11.218648"
+     id="path3086" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#010101;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:stroke fill markers"
+     d="m 617.96134,86.176757 -9,-11.218648"
+     id="path3098" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#010101;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:stroke fill markers"
+     d="m 616.22536,96.547454 -9,-11.218648"
+     id="path3110" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#010101;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);paint-order:stroke fill markers"
+     d="m 614.60553,104.50149 -9,-11.218649"
+     id="path3122" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:5.66929px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     x="585.14111"
+     y="91.065697"
+     id="text5414"><tspan
+       sodipodi:role="line"
+       id="tspan5412"
+       x="585.14111"
+       y="91.065697">パケロス</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:5.66929px;font-family:'Noto Sans Mono CJK JP';-inkscape-font-specification:'Noto Sans Mono CJK JP Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     x="630"
+     y="92.354965"
+     id="text6202"><tspan
+       sodipodi:role="line"
+       id="tspan6200"
+       x="630"
+       y="92.354965">パケロス</tspan></text>
+</svg>

@@ -18,6 +18,7 @@
 #define M_MAX 300
 #define PI 3.1415
 //#define INPUT_FILE_PATH "../record/tugounoiide-ta/free_fall.csv"
+//#define INPUT_FILE_PATH "../record/tugounoiide-ta/launch.csv"
 #define INPUT_FILE_PATH "../record/tugounoiide-ta/drop1.csv"
 //#define INPUT_FILE_PATH "../record/tugounoiide-ta/tsurisage_seigyo2.csv"
 //#define INPUT_FILE_PATH "../record/tugounoiide-ta/tsurisage_nashi2.csv"
@@ -396,23 +397,31 @@ int main(){
         int x,mode;
         bool doPlot = true;
         mode = ((int)flag1[i]&(0b00000011)) + 1;
+        cout << mode << endl;
         switch(mode){
             case 2:
-                //t += 1000.0f;
-                doPlot = false;
+                t += 100.0f;
                 break;
             case 3:
                 t += 30.0;
                 break;
             case 4:
-                t += 1000.0f/30.0f;
+                t += 1000.0f/60.0f;
                 break;
+        }
+
+        if(38200 < t && t < 58902){
+            doPlot = true;
+        }else{
+            doPlot = false;
+
         }
 
         if(doPlot){
             //oriv.plot(p_r0,p_g0,p_b0,0,t/10,PI, true);
-            acce[i].plot(p_r0,p_g0,p_b0,0,t/10,100, true);
+            acce[i].plot(p_r0,p_g0,p_b0,0,t/10,6.28, true);
             mp[i].plot(p_r1,p_g1,p_b1,1,t/10,M_MAX, true);
+            p_k << Point((float)t/10, (float)mode * X_LIMIT);
         }
 
         /*
